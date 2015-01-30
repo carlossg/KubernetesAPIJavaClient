@@ -12,7 +12,7 @@
 	<artifactId>com.github.kubernetes.java.client</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>KubernetesAPIJavaClient</name>
-	<url>https://github.com/nirmal070125/KubernetesAPIJavaClient</url>
+	<url>https://github.com/elibixby/KubernetesAPIJavaClient</url>
 	<description>Java API Client for Google Kubernetes</description>
 
 	<licenses>
@@ -24,9 +24,9 @@
 	</licenses>
 
 	<scm>
-		<connection>scm:git:git@github.com:nirmal070125/KubernetesAPIJavaClient.git</connection>
-		<url>git@github.com:nirmal070125/KubernetesAPIJavaClient.git</url>
-		<developerConnection>scm:git:git@github.com:nirmal070125/KubernetesAPIJavaClient.git</developerConnection>
+		<connection>scm:git:git@github.com:elibixby/KubernetesAPIJavaClient.git</connection>
+		<url>git@github.com:elibixby/KubernetesAPIJavaClient.git</url>
+		<developerConnection>scm:git:git@github.com:elibixby/KubernetesAPIJavaClient.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
 
