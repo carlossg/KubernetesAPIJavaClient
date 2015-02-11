@@ -8,8 +8,8 @@
 		<version>9</version>
 	</parent>
 
-	<groupId>com.github.kubernetes</groupId>
-	<artifactId>com.github.kubernetes.java.client</artifactId>
+	<groupId>org.csanchez.kubernetes</groupId>
+	<artifactId>kubernetes-java</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>KubernetesAPIJavaClient</name>
 	<url>https://github.com/nirmal070125/KubernetesAPIJavaClient</url>
@@ -35,6 +35,11 @@
 			<id>nirmal070125</id>
 			<name>Nirmal Fernando</name>
 			<email>nirmal070125@gmail.com</email>
+		</developer>
+		<developer>
+			<id>csanchez</id>
+			<name>Carlos Sanchez</name>
+			<email>carlos@apache.org</email>
 		</developer>
 	</developers>
 
