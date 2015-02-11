@@ -156,9 +156,6 @@ public interface KubernetesAPI {
      * 
      * @param controllerId
      *            id of the controller to be updated
-     * @param controller
-     *            controller to update (only the number of replicas can be
-     *            updated).
      * @throws KubernetesClientException
      */
     @PUT
@@ -170,8 +167,8 @@ public interface KubernetesAPI {
     /**
      * Delete a Replication Controller.
      * 
-     * @param replication
-     *            controller id controller id to be deleted.
+     * @param controllerId
+     *            id of the controller to be deleted.
      * @throws KubernetesClientException
      */
     @DELETE

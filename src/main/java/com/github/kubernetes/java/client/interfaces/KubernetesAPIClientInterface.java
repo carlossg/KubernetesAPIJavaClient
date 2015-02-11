@@ -119,8 +119,8 @@ public interface KubernetesAPIClientInterface {
     /**
      * Delete a Replication Controller.
      * 
-     * @param replication
-     *            controller id controller id to be deleted.
+     * @param controllerId
+     *            id of the controller to be deleted.
      * @throws KubernetesClientException
      */
     public Status deleteReplicationController(String controllerId) throws KubernetesClientException;
@@ -166,8 +166,8 @@ public interface KubernetesAPIClientInterface {
     /**
      * Run a label query and retrieve a sub set of Pods.
      * 
-     * @param label
-     *            of labels for the label query
+     * @param labels
+     *            labels to match
      * @return Pods selected Pods by executing the label query.
      * @throws KubernetesClientException
      */
