@@ -23,6 +23,18 @@ package com.github.kubernetes.java.client.model;
 public class Volume {
 
     private String name;
+    private VolumeSource source;
+
+    public Volume() {
+    }
+
+    public VolumeSource getSource() {
+        return source;
+    }
+
+    public void setSource(VolumeSource source) {
+        this.source = source;
+    }
 
     public Volume(String name) {
         this.name = name;
