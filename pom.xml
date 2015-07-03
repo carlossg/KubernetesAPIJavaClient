@@ -9,7 +9,7 @@
 
 	<groupId>org.csanchez.kubernetes</groupId>
 	<artifactId>kubernetes-java</artifactId>
-	<version>0.0.3-SNAPSHOT</version>
+	<version>0.0.3</version>
 	<name>KubernetesAPIJavaClient</name>
 	<url>https://github.com/carlossg/KubernetesAPIJavaClient</url>
 	<description>Java API Client for Google Kubernetes</description>
@@ -26,7 +26,7 @@
 		<connection>scm:git:git@github.com:carlossg/KubernetesAPIJavaClient.git</connection>
 		<url>git@github.com:carlossg/KubernetesAPIJavaClient.git</url>
 		<developerConnection>scm:git:git@github.com:carlossg/KubernetesAPIJavaClient.git</developerConnection>
-		<tag>HEAD</tag>
+		<tag>kubernetes-java-0.0.3</tag>
 	</scm>
 
 	<developers>
