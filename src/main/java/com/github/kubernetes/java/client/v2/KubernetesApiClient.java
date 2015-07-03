@@ -33,6 +33,11 @@ public class KubernetesApiClient implements KubernetesAPIClientInterface {
     }
 
     public KubernetesApiClient(String endpointUrl, String username, String password, RestFactory factory) {
+        this(endpointUrl, username, password, null, factory);
+    }
+
+
+    public KubernetesApiClient(String endpointUrl, String username, String password, String serverCertificate, RestFactory factory) {
         try {
             if (endpointUrl.matches("/api/v1[a-z0-9]+")) {
                 LOG.warn("Deprecated: KubernetesApiClient endpointUrl should not include the /api/version section in "
@@ -44,7 +49,7 @@ public class KubernetesApiClient implements KubernetesAPIClientInterface {
         } catch (URISyntaxException e) {
             throw new RuntimeException(e);
         }
-        api = factory.createAPI(endpointURI, username, password);
+        api = factory.createAPI(endpointURI, username, password, serverCertificate);
     }
 
     public Pod getPod(String podId) throws KubernetesClientException {
